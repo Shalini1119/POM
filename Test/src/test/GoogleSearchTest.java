@@ -24,6 +24,8 @@ import pom1.GoogleSearchPage;
 		
 		private static WebDriver driver=null;
 		
+		//my 1st Comment
+		
 		@BeforeTest
 		public static void main(String[] args) throws InterruptedException
 		{
@@ -76,10 +78,9 @@ import pom1.GoogleSearchPage;
 			FB_HomePage.Profile_Picture1(driver).click();
 			FB_HomePage.Log_Out(driver).click();
 			FB_HomePage.Alert_Btn(driver);
+			driver.quit();
 			
-			
-			
-			
+				
 		}
 		}
 		
