@@ -56,7 +56,7 @@ import pom1.GoogleSearchPage;
 			WebDriverWait wait=new  WebDriverWait(driver, Duration.ofSeconds(20));  
 		}
 		
-		@Test(priority=2)
+		@Test(priority=2, description="Verifying the Login Method")
 		public static void Login()
 		{
 			
