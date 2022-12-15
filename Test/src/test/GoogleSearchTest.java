@@ -15,6 +15,10 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import pom1.FBLoginPage;
 import pom1.FB_HomePage;
 
@@ -34,6 +38,9 @@ import pom1.GoogleSearchPage;
 			SearchOption();
 		}
 		
+		@Severity(SeverityLevel.NORMAL)
+		@Description("TestCase Description: Verified GoogleSearch Test")
+		@Story("This is a Story name for GoogleSearch")
 		@Test(priority=1)
 		@SuppressWarnings("deprecation")
 		public static void googleSearch() throws InterruptedException {

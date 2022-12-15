@@ -6,6 +6,8 @@ public class ArrayDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		//1st Comment
+		
 		int[] arr = new int[5];
 		arr[1]=4;
 		arr[2]=2;
